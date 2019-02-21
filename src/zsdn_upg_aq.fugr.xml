@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SDN: Upgrade AQ Quick Converter</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZSDN_UPG_AQTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZSDN_UPG_AQ</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZSDN_UPG_AQ_CONV_TCODE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Converts TCODEs from ZSDN_UPG_AQ table</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_UPG_AQ</PARAMETER>
+       <DBSTRUCT>ZSDN_UPG_AQ</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_TSTC</PARAMETER>
+       <DBSTRUCT>TSTC</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_TSTCC</PARAMETER>
+       <DBSTRUCT>TSTCC</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>IT_TSTCP</PARAMETER>
+       <DBSTRUCT>TSTCP</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR_HAPPENED</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_UPG_AQ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Transation Codes with AQ* generated report</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_TSTC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>SAP Transaction Codes</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_TSTCC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Additional Attributes for TSTC</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_TSTCP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Parameters for Transactions</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_HAPPENED</PARAMETER>
+       <KIND>X</KIND>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZSDN_UPG_AQ_POST_DATA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Save Data in ZSDN_UPG_AQ table</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IT_UPG_AQ</PARAMETER>
+       <DBSTRUCT>ZSDN_UPG_AQ</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR_HAPPENED</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_UPG_AQ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Transation Codes with AQ* generated report</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_HAPPENED</PARAMETER>
+       <KIND>X</KIND>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
