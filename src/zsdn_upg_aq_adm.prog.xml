@@ -4,8 +4,6 @@
   <asx:values>
    <PROGDIR>
     <NAME>ZSDN_UPG_AQ_ADM</NAME>
-    <STATE>A</STATE>
-    <VARCL>X</VARCL>
     <SUBC>1</SUBC>
     <APPL>*</APPL>
     <RLOAD>E</RLOAD>

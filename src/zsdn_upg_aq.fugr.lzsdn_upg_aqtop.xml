@@ -4,8 +4,6 @@
   <asx:values>
    <PROGDIR>
     <NAME>LZSDN_UPG_AQTOP</NAME>
-    <STATE>A</STATE>
-    <VARCL>X</VARCL>
     <DBAPL>S</DBAPL>
     <DBNA>D$</DBNA>
     <SUBC>I</SUBC>
