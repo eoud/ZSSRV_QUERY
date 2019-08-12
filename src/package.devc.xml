@@ -4,8 +4,6 @@
   <asx:values>
    <DEVC>
     <CTEXT>Application Development R/3 SAP Query</CTEXT>
-    <COMP_POSID>BC-SRV-QUE</COMP_POSID>
-    <COMPONENT>HLB0009166</COMPONENT>
    </DEVC>
   </asx:values>
  </asx:abap>
