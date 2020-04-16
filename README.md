@@ -2,6 +2,7 @@
 AQ* Report Transactions Quick Converter
 
 The story behind AQ Quick converter: see SCN blog : Upgrade – Easy migration of AQ* Report transactions
+https://blogs.sap.com/2015/02/24/upgrade-easy-migration-of-aq-report-transactions/
 
 #Installation
 
@@ -14,7 +15,7 @@ The story behind AQ Quick converter: see SCN blog : Upgrade – Easy migration o
 #Usage
 Just run the tcode ZSDN_AQ_CNV and you get into the front screen of the quick converter.
 
-see demo video in blog ( ......................... )
+see demo video in blog ( ......................... ) or directly at https://www.youtube.com/watch?v=BsC__DYJhDw&feature=youtu.be
 
 #License
 
